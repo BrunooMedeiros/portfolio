@@ -1,0 +1,365 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(235, 164, 13);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 39px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: rgb(235, 164, 13);
+}
+
+button:hover {
+    box-shadow: 0px 0px 8px rgb(235, 164, 13);
+    transform: scale(1.05);
+}
+
+
+/* Estilo do cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #6d6d6d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: #fff;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site span{
+    color: rgb(235, 164, 13);
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+
+/* MINHAS ESPECIALIDADES */
+
+section.especialidades{
+    background: #460505;
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #8f63047c;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: rgb(235, 164, 13);
+    
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 29px;
+    margin: 15px 0;
+}
+
+
+/*ESTILO DO SOBRE-MIM*/
+
+section.sobre-mim{
+    padding: 100px 4%;
+}
+
+section.sobre-mim .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre-mim .txt-sobre{
+    color: #fff;
+}
+
+.sobre-mim .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre-mim .txt-sobre p{
+    font-size: 25px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.sobre-mim .txt-sobre h2 span{
+    color: rgb(235, 164, 13);
+    display: block;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(235, 164, 13);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+
+/* ESTILO DO TRABALHOS */
+
+section.trabalhos{
+    background: #460505;
+    color: #460505;
+    padding: 80px 4%;
+}
+
+.img-taba{
+    width: 360px;
+    height: 460px;
+    background-color: rgb(235, 164, 13);
+}
+
+section.trabalhos .flex{
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.img-taba{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 7s;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.img-taba:hover{
+    background-position: 100% 100%;
+}
+
+section.trabalhos1{
+    background: #460505;
+    margin: 20px;
+}
+
+.img-tabal{
+    width: 360px;
+    height: 460px;
+    background-color: rgb(235, 164, 13);
+}
+
+section.trabalhos1 .flex{
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.img-tabal{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 7s;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.img-tabal:hover{
+    background-position: 100% 100%;
+}
+
+
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-bottom: 2px solid rgb(235, 164, 13);
+}
+
+footer .line-footer p i{
+    color: rgb(235, 164, 13);
+    font-size: 20px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+
+
+/*tecnologias*/
+
+
+.tecnologias {
+    margin: 100px;
+    padding: 385px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.bar:hover {
+    background-color: #fff;
+}
+
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
